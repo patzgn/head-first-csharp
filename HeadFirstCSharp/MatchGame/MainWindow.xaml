@@ -21,36 +21,15 @@
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
+            <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBlock Text="?"
-                   Grid.Column="0"
-                   Grid.Row="0"
+        <TextBlock x:Name="bestScoreTextBlock"
+                   Text="Najlepszy wynik:"
+                   Grid.ColumnSpan="4"
                    FontSize="36"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   MouseDown="TextBlock_MouseDown" />
-        <TextBlock Text="?"
-                   Grid.Column="1"
-                   Grid.Row="0"
-                   FontSize="36"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   MouseDown="TextBlock_MouseDown" />
-        <TextBlock Text="?"
-                   Grid.Column="2"
-                   Grid.Row="0"
-                   FontSize="36"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   MouseDown="TextBlock_MouseDown" />
-        <TextBlock Text="?"
-                   Grid.Column="3"
-                   Grid.Row="0"
-                   FontSize="36"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   MouseDown="TextBlock_MouseDown" />
+                   VerticalAlignment="Center" />
 
         <TextBlock Text="?"
                    Grid.Column="0"
@@ -134,6 +113,35 @@
         <TextBlock Text="?"
                    Grid.Column="3"
                    Grid.Row="3"
+                   FontSize="36"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   MouseDown="TextBlock_MouseDown" />
+
+        <TextBlock Text="?"
+                   Grid.Column="0"
+                   Grid.Row="4"
+                   FontSize="36"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   MouseDown="TextBlock_MouseDown" />
+        <TextBlock Text="?"
+                   Grid.Column="1"
+                   Grid.Row="4"
+                   FontSize="36"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   MouseDown="TextBlock_MouseDown" />
+        <TextBlock Text="?"
+                   Grid.Column="2"
+                   Grid.Row="4"
+                   FontSize="36"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   MouseDown="TextBlock_MouseDown" />
+        <TextBlock Text="?"
+                   Grid.Column="3"
+                   Grid.Row="4"
                    FontSize="36"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
@@ -141,7 +149,7 @@
 
         <TextBlock x:Name="timeTextBlock"
                    Text="Czas:"
-                   Grid.Row="4"
+                   Grid.Row="5"
                    Grid.ColumnSpan="4"
                    FontSize="36"
                    HorizontalAlignment="Center"

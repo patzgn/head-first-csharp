@@ -24,6 +24,9 @@ namespace MatchGame
         DispatcherTimer timer = new DispatcherTimer();
         int tenthsOfSecondsElapsed;
         int matchesFound;
+        int bestScore = int.MaxValue;
+
+        private readonly int BoardSize = 16;
 
         public MainWindow()
         {
@@ -32,6 +35,8 @@ namespace MatchGame
             timer.Interval = TimeSpan.FromSeconds(.1);
             timer.Tick += Timer_Tick;
 
+            bestScoreTextBlock.Text = "Zagraj";
+
             SetUpGame();
         }
 
@@ -39,32 +44,29 @@ namespace MatchGame
         {
             tenthsOfSecondsElapsed++;
             timeTextBlock.Text = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+
             if (matchesFound == 8)
             {
                 timer.Stop();
                 timeTextBlock.Text = timeTextBlock.Text + " - Jeszcze raz?";
+
+                if (bestScore > tenthsOfSecondsElapsed)
+                {
+                    bestScore = tenthsOfSecondsElapsed;
+                    bestScoreTextBlock.Text = "Najlepszy czas: " + (bestScore / 10F).ToString("0.0s");
+                }
             }
         }
 
         private void SetUpGame()
         {
-            List<string> animalEmoji = new List<string>()
-            {
-                "🐙", "🐙",
-                "🐡", "🐡",
-                "🐘", "🐘",
-                "🐳", "🐳",
-                "🐪", "🐪",
-                "🦕", "🦕",
-                "🦘", "🦘",
-                "🦔", "🦔",
-            };
+            List<string> animalEmoji = GenerateAnimalEmojiList();
 
             Random random = new Random();
 
             foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
             {
-                if (textBlock.Name != "timeTextBlock")
+                if (textBlock.Name != "timeTextBlock" && textBlock.Name != "bestScoreTextBlock")
                 {
                     textBlock.Visibility = Visibility.Visible;
                     int index = random.Next(animalEmoji.Count);
@@ -77,6 +79,35 @@ namespace MatchGame
             timer.Start();
             tenthsOfSecondsElapsed = 0;
             matchesFound = 0;
+        }
+
+        private List<string> GenerateAnimalEmojiList()
+        {
+            List<string> animals = new List<string>()
+            {
+                "🐙", "🐒",
+                "🐡", "🦇",
+                "🐘", "🦊",
+                "🐳", "🐕",
+                "🐪", "🦏",
+                "🦕", "🦍",
+                "🦘", "🐱",
+                "🦔", "🦌",
+            };
+
+            List<string> result = new List<string>();
+
+            Random random = new Random();
+
+            for (int i = 0; i < BoardSize / 2; i++)
+            {
+                int index = random.Next(animals.Count);
+                result.Add(animals[index]);
+                result.Add(animals[index]);
+                animals.RemoveAt(index);
+            }
+
+            return result;
         }
 
         TextBlock lastTextBlockClicked;
