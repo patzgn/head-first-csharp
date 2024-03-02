@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstConsoleApp", "MyFirstConsoleApp\MyFirstConsoleApp.csproj", "{FDEEE94B-101C-46FC-8BFB-19D10AAA208A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstConsoleApp", "MyFirstConsoleApp\MyFirstConsoleApp.csproj", "{FDEEE94B-101C-46FC-8BFB-19D10AAA208A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchGame", "MatchGame\MatchGame.csproj", "{2451CBA7-D880-4732-B3F0-B2CCC36636E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchGame", "MatchGame\MatchGame.csproj", "{2451CBA7-D880-4732-B3F0-B2CCC36636E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpenYourPencil", "SharpenYourPencil\SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2451CBA7-D880-4732-B3F0-B2CCC36636E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2451CBA7-D880-4732-B3F0-B2CCC36636E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2451CBA7-D880-4732-B3F0-B2CCC36636E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
