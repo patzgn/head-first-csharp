@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchGame", "MatchGame\Matc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpenYourPencil", "SharpenYourPencil\SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithControls", "ExperimentWithControls\ExperimentWithControls.csproj", "{44CFBE99-C247-45B9-9016-EAF0A00FA27D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CFBE99-C247-45B9-9016-EAF0A00FA27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CFBE99-C247-45B9-9016-EAF0A00FA27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CFBE99-C247-45B9-9016-EAF0A00FA27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CFBE99-C247-45B9-9016-EAF0A00FA27D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
