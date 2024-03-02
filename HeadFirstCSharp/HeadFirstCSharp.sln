@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstConsoleApp", "MyFirstConsoleApp\MyFirstConsoleApp.csproj", "{FDEEE94B-101C-46FC-8BFB-19D10AAA208A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2.MyFirstConsoleApp", "MyFirstConsoleApp\Chapter_2.MyFirstConsoleApp.csproj", "{FDEEE94B-101C-46FC-8BFB-19D10AAA208A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchGame", "MatchGame\MatchGame.csproj", "{2451CBA7-D880-4732-B3F0-B2CCC36636E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_1.MatchGame", "MatchGame\Chapter_1.MatchGame.csproj", "{2451CBA7-D880-4732-B3F0-B2CCC36636E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpenYourPencil", "SharpenYourPencil\SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.SharpenYourPencil", "SharpenYourPencil\Chapter_2.SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithControls", "ExperimentWithControls\ExperimentWithControls.csproj", "{44CFBE99-C247-45B9-9016-EAF0A00FA27D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.ExperimentWithControls", "ExperimentWithControls\Chapter_2.ExperimentWithControls.csproj", "{44CFBE99-C247-45B9-9016-EAF0A00FA27D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMatchGame", "BlazorMatchGame\BlazorMatchGame.csproj", "{93B39B52-93BB-46FC-B5ED-4CEB04866AD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_1.BlazorMatchGame", "BlazorMatchGame\Chapter_1.BlazorMatchGame.csproj", "{93B39B52-93BB-46FC-B5ED-4CEB04866AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithControlsBlazor", "ExperimentWithControlsBlazor\ExperimentWithControlsBlazor.csproj", "{92EBFD71-B290-49EC-9EC9-FC1017846F89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.ExperimentWithControlsBlazor", "ExperimentWithControlsBlazor\Chapter_2.ExperimentWithControlsBlazor.csproj", "{92EBFD71-B290-49EC-9EC9-FC1017846F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickRandomCards", "PickRandomCards\PickRandomCards.csproj", "{17ADB93D-A7D4-4233-BA14-57837DDFDE8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.PickRandomCards", "PickRandomCards\Chapter_3.PickRandomCards.csproj", "{17ADB93D-A7D4-4233-BA14-57837DDFDE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickACardUI", "PickACardUI\PickACardUI.csproj", "{3591B4C5-D003-4BE2-879B-3434B26BF35A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.PickACardUI", "PickACardUI\Chapter_3.PickACardUI.csproj", "{3591B4C5-D003-4BE2-879B-3434B26BF35A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
