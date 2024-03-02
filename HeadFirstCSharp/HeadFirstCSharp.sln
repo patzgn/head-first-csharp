@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2.MyFirstConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_1.MatchGame", "MatchGame\Chapter_1.MatchGame.csproj", "{2451CBA7-D880-4732-B3F0-B2CCC36636E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.SharpenYourPencil", "SharpenYourPencil\Chapter_2.SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2.SharpenYourPencil", "SharpenYourPencil\Chapter_2.SharpenYourPencil.csproj", "{DACB02B3-2109-4B79-BB8C-B2D59C7A4A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.ExperimentWithControls", "ExperimentWithControls\Chapter_2.ExperimentWithControls.csproj", "{44CFBE99-C247-45B9-9016-EAF0A00FA27D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2.ExperimentWithControls", "ExperimentWithControls\Chapter_2.ExperimentWithControls.csproj", "{44CFBE99-C247-45B9-9016-EAF0A00FA27D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_1.BlazorMatchGame", "BlazorMatchGame\Chapter_1.BlazorMatchGame.csproj", "{93B39B52-93BB-46FC-B5ED-4CEB04866AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_1.BlazorMatchGame", "BlazorMatchGame\Chapter_1.BlazorMatchGame.csproj", "{93B39B52-93BB-46FC-B5ED-4CEB04866AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2.ExperimentWithControlsBlazor", "ExperimentWithControlsBlazor\Chapter_2.ExperimentWithControlsBlazor.csproj", "{92EBFD71-B290-49EC-9EC9-FC1017846F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2.ExperimentWithControlsBlazor", "ExperimentWithControlsBlazor\Chapter_2.ExperimentWithControlsBlazor.csproj", "{92EBFD71-B290-49EC-9EC9-FC1017846F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.PickRandomCards", "PickRandomCards\Chapter_3.PickRandomCards.csproj", "{17ADB93D-A7D4-4233-BA14-57837DDFDE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_3.PickRandomCards", "PickRandomCards\Chapter_3.PickRandomCards.csproj", "{17ADB93D-A7D4-4233-BA14-57837DDFDE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.PickACardUI", "PickACardUI\Chapter_3.PickACardUI.csproj", "{3591B4C5-D003-4BE2-879B-3434B26BF35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_3.PickACardUI", "PickACardUI\Chapter_3.PickACardUI.csproj", "{3591B4C5-D003-4BE2-879B-3434B26BF35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.SharpenYourPencil", "Chapter_3.SharpenYourPencil\Chapter_3.SharpenYourPencil.csproj", "{6D4A52DB-0170-4FB9-A96C-FE378AECAFBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3591B4C5-D003-4BE2-879B-3434B26BF35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3591B4C5-D003-4BE2-879B-3434B26BF35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3591B4C5-D003-4BE2-879B-3434B26BF35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4A52DB-0170-4FB9-A96C-FE378AECAFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4A52DB-0170-4FB9-A96C-FE378AECAFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4A52DB-0170-4FB9-A96C-FE378AECAFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4A52DB-0170-4FB9-A96C-FE378AECAFBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
