@@ -35,7 +35,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.ElephantExercise"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.SharpenYourPencil", "Chapter_4.SharpenYourPencil\Chapter_4.SharpenYourPencil.csproj", "{DB0119F9-FC34-4363-9ED0-2758E37CA37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomTestDrive", "RandomTestDrive\RandomTestDrive.csproj", "{B2658A6F-1CB8-40E7-BB85-6A60F9612190}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.RandomTestDrive", "RandomTestDrive\Chapter_4.RandomTestDrive.csproj", "{B2658A6F-1CB8-40E7-BB85-6A60F9612190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.SloppyJoe", "SloppyJoe\Chapter_4.SloppyJoe.csproj", "{4C962948-8B63-46B1-9175-88DC1FDC5B09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{B2658A6F-1CB8-40E7-BB85-6A60F9612190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2658A6F-1CB8-40E7-BB85-6A60F9612190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2658A6F-1CB8-40E7-BB85-6A60F9612190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C962948-8B63-46B1-9175-88DC1FDC5B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C962948-8B63-46B1-9175-88DC1FDC5B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C962948-8B63-46B1-9175-88DC1FDC5B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C962948-8B63-46B1-9175-88DC1FDC5B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
