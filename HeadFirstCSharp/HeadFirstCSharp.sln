@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3.PickACardBlazor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.AbilityScore", "Chapter_4.AbilityScore\Chapter_4.AbilityScore.csproj", "{D8DED687-4CEF-4BCC-87EC-0A6A4C6F8DA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4.ElephantExercise", "Chapter_4.ElephantExercise\Chapter_4.ElephantExercise.csproj", "{F7EA10B7-6C37-46B2-8054-BAE552BFA359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D8DED687-4CEF-4BCC-87EC-0A6A4C6F8DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DED687-4CEF-4BCC-87EC-0A6A4C6F8DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DED687-4CEF-4BCC-87EC-0A6A4C6F8DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EA10B7-6C37-46B2-8054-BAE552BFA359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EA10B7-6C37-46B2-8054-BAE552BFA359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EA10B7-6C37-46B2-8054-BAE552BFA359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EA10B7-6C37-46B2-8054-BAE552BFA359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
