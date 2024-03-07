@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpenYourPencil-2", "SharpenYourPencil-2\SharpenYourPencil-2.csproj", "{CE9EB7D8-19FD-4416-AF4C-233820ADF979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9EB7D8-19FD-4416-AF4C-233820ADF979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9EB7D8-19FD-4416-AF4C-233820ADF979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9EB7D8-19FD-4416-AF4C-233820ADF979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9EB7D8-19FD-4416-AF4C-233820ADF979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F6C38A5-D29F-4455-956D-11563D295F09}
+	EndGlobalSection
+EndGlobal
