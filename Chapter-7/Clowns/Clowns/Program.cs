@@ -1,0 +1,12 @@
+﻿namespace Clowns;
+
+internal class Program
+{
+	static void Main(string[] args)
+	{
+		TallGuy tallGuy = new() { Height = 76, Name = "Jimmy" };
+		tallGuy.TalkAboutYourself();
+		Console.WriteLine($"The tall guy has {tallGuy.FunnyThingIHave}");
+		tallGuy.Honk();
+	}
+}
