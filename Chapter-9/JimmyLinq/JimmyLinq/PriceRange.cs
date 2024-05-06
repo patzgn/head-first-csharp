@@ -1,6 +1,6 @@
 ﻿namespace JimmyLinq;
 
-internal enum PriceRange
+public enum PriceRange
 {
 	Cheap,
 	Expensive,

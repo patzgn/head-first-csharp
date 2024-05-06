@@ -1,6 +1,6 @@
 ﻿namespace JimmyLinq;
 
-internal static class ComicAnalyzer
+public static class ComicAnalyzer
 {
 	public static IEnumerable<string> GetReviews(
 		IEnumerable<Comic> catalog, IEnumerable<Review> reviews)

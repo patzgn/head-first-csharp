@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmyLinq", "JimmyLinq\JimmyLinq.csproj", "{F1F5129A-330D-4AB8-BBB6-1230175197FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JimmyLinq", "JimmyLinq\JimmyLinq.csproj", "{F1F5129A-330D-4AB8-BBB6-1230175197FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmyLinqUnitTests", "JimmyLinqUnitTests\JimmyLinqUnitTests.csproj", "{95A4D57A-FDFC-4510-8BA1-D18D5945944C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F1F5129A-330D-4AB8-BBB6-1230175197FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F5129A-330D-4AB8-BBB6-1230175197FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F5129A-330D-4AB8-BBB6-1230175197FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A4D57A-FDFC-4510-8BA1-D18D5945944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A4D57A-FDFC-4510-8BA1-D18D5945944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A4D57A-FDFC-4510-8BA1-D18D5945944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A4D57A-FDFC-4510-8BA1-D18D5945944C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
