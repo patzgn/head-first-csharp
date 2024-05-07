@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmyLinq", "JimmyLinq\JimmyLinq.csproj", "{CC25307E-2B67-4590-B8E5-72CD58FE13C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmyLinqUnitTests", "JimmyLinqUnitTests\JimmyLinqUnitTests.csproj", "{72EABB2F-7349-46EB-A209-2DC5DF5FF267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC25307E-2B67-4590-B8E5-72CD58FE13C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC25307E-2B67-4590-B8E5-72CD58FE13C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC25307E-2B67-4590-B8E5-72CD58FE13C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC25307E-2B67-4590-B8E5-72CD58FE13C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EABB2F-7349-46EB-A209-2DC5DF5FF267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EABB2F-7349-46EB-A209-2DC5DF5FF267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EABB2F-7349-46EB-A209-2DC5DF5FF267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EABB2F-7349-46EB-A209-2DC5DF5FF267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8ADA8F7-2EFA-4F4A-A8C9-6A7C27E5C090}
+	EndGlobalSection
+EndGlobal
