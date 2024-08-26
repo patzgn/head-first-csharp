@@ -1,0 +1,3 @@
+﻿using PoolPuzzle;
+
+new Faucet();
